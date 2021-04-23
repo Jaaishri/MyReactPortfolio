@@ -1,0 +1,136 @@
+.header-color {
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #8e0e00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #1f1c18, #8e0e00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #1f1c18, #8e0e00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: #ff6e7f; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to top, #bfe9ff, #ff6e7f); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to top, #bfe9ff, #ff6e7f); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+  position: fixed;
+  top: 0;
+
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #8e0e00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1f1c18, #8e0e00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1f1c18, #8e0e00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background: #27221f; */
+  color: white;
+  padding: 2em;
+}
+
+.resume-left-col {
+  background:#E5E5E5;
+  color: #27221f;
+  padding: 2em;
+}
+
+.avatar-img {
+  height: 200px;
+  padding-top: 2cm;
+  /* border-radius: 10px; */
+  
+  
+}
+.lego-img {
+  margin-left: 0px;
+justify-content:last baseline;
+  
+  width: 100%;
+  padding-top: 0cm;
+  border-radius: 10px;
+
+}
+.standOut-img {
+ margin-left:100px;
+ 
+  height: 300px;
+  padding-top: 0cm;
+  padding-bottom:20px;
+  border-radius: 10px;
+  
+}
+.button {
+  position:absolute;
+   
+  text-align: center;
+  color: #E5E5E5;
+  
+  margin-left: 400px;
+}
+
+
+.banner-text {
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background-color: black; */
+
+  opacity: 0.8;
+  width: 55%;
+  /* height: 25%; */
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 40%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 4em;
+  padding: 6px;
+}
