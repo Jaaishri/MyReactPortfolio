@@ -20,8 +20,8 @@ const Main = () => (
   <Cell col={12}>
   <img
               className="main-img"
-               src="https://i.postimg.cc/wv6pFpZF/pic.jpg"
-              //src={process.env.PUBLIC_URL + "/Laptop.jpeg"}
+              // src="https://i.postimg.cc/wv6pFpZF/pic.jpg"
+              src={process.env.PUBLIC_URL + "/Laptop.jpeg"}
               alt="myself"
             />
             
