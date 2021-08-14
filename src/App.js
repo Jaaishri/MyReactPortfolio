@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./components/main";
+import Home from "./components/Home";
 import "./App.css";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
@@ -31,7 +31,7 @@ function App() {
         </Drawer>
         <Content>
           <div className="page-content" />
-          <Main />
+          <Home />
         </Content>
       </Layout>
     </div>
