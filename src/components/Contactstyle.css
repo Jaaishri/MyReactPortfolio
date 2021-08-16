@@ -5,23 +5,33 @@
     background-color:#3f0802;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
+}
+.heading{
+    
+    position:relative;
+    align-items: flex-start;
+    color:white;
+}
+.message {
+    height: 150px;
 }
 
 input[type=text],
 input[type=email],
 input[type=number] {
-    width: 80%;
+    width:200%;
+    display:flex;
     padding: 5px 22px;
-    margin: 10px 0px;
+    margin: 20px 0px 20px 0px;    
     box-sizing: border-box;
     border: 2px solid #58B19F;
 
 }
 
 textarea {
-    width: 50%;
+    width: 10%;
     height: 30px;
     padding: 15px 22px;
     box-sizing: border-box;
@@ -30,14 +40,4 @@ textarea {
     resize: none;
 }
 
-input[type=submit] {
-    background-color: #8e0e00;
-    border: none;
-    color: white;
-    padding: 8px 36px;
-    text-decoration: none;
-    border: 2px solid #ccc;
-    margin: 8px 4px;
-    cursor: pointer;
- 
-}
+
